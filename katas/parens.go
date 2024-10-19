@@ -28,11 +28,11 @@ func parens() {
 					balanced = false 
 					break
 				}
-				stack = stack[:len(stack)-1] // Pop from stack
+				stack = stack[:len(stack)-1] 
 			}
 		}
 
-		if balanced && len(stack) == 0 { // Balanced and stack is empty
+		if balanced && len(stack) == 0 {
 			fmt.Println("yes")
 		} else {
 			fmt.Println("no")
