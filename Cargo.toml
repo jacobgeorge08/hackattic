@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = [
+    "katas/*",
+]
+
+[profile.dev]
+debug = 0      # Disables large debug symbols (speeds up builds & saves tons of disk space)
