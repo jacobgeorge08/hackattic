@@ -5,3 +5,7 @@ version = 4
 [[package]]
 name = "debasing64"
 version = "0.1.0"
+
+[[package]]
+name = "fizzbuzz"
+version = "0.1.0"
